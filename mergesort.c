@@ -49,7 +49,7 @@ void mergesort(int arr[],int l,int r)
 int main()
 {
     int n;
-    printf("\nEnter the nunmber of Elements: ");
+    printf("\nEnter the number of Elements: ");
     scanf("%d",&n);
     int arr[n];
     printf("\nEnter the Elements: ");
@@ -59,7 +59,7 @@ int main()
     }
 
     mergesort(arr,0,n);
-    printf("After Sorting the Elemnts are: ");
+    printf("After Sorting the Elements are: ");
     for(int i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
